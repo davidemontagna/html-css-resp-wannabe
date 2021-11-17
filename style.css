@@ -107,10 +107,10 @@ img {
   #lezioni .row>.left{
     margin: 30px 0;
   }
-  #lezioni .row h1{
+  #lezioni .row h1, #why .row h1,#steps .row h1{
     font-size: 30px;
   }
-  #lezioni .row h3, #steps .row h3{
+  #lezioni .row h3, #steps .row h3, #why .row h3{
     font-size: 20px;
   }
 
@@ -128,5 +128,10 @@ img {
     padding: 0 10px;
   }
 
-
+  /*Parte Why*/
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 10px;
+  }
 }
